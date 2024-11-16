@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.table {
+  display: grid;
+  grid-template-columns: repeat(18, 50px);
+  gap: 5px;
+}
+.element {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+}
+/* Color coding by groups */
+.alkali-metal {
+  background-color: #ff6666;
+}
+.alkaline-earth {
+  background-color: #ffcc66;
+}
+.transition-metal {
+  background-color: #ffeb99;
+  color: black;
+}
+.metalloid {
+  background-color: #99ff99;
+}
+.nonmetal {
+  background-color: #66b3ff;
+}
+.halogen {
+  background-color: #b366ff;
+}
+.noble-gas {
+  background-color: #ff99cc;
+}
+.lanthanide {
+  background-color: #cccccc;
+}
+.actinide {
+  background-color: #a6a6a6;
+}
+.empty {
+  background-color: transparent;
+}
